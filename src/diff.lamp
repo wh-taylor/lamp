@@ -1,0 +1,5 @@
+power_rule :: \d(x^n) / \d x => n*x^(n-1)
+
+product_rule :: \d(a * b) / \d x => a * (d b / d x) + b * (d a / d x)
+
+chain_rule :: \d(f(g x)) / \d x => (d(f(g x)) / d(g x)) * (d(g x) / d x)
